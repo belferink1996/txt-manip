@@ -51,6 +51,21 @@ code {
     border-bottom: 1px solid #fff;
   }
 
+  .readonly {
+    position: relative;
+
+    img {
+      position: absolute;
+      right: 0;
+      width: 45px;
+      padding: 4px;
+      background-color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+
   footer {
     margin: auto 0 0 0;
     padding: 1rem 0;
