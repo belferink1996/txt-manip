@@ -2,7 +2,7 @@
 
 ### Open app: [https://belferink1996.github.io/txt-manip/](https://belferink1996.github.io/txt-manip/)
 
-<img src="./src/media/screenshot.png" alt="screenshot" width="300" />
+<img src="./_docs/screenshot.png" alt="screenshot" width="300" />
 
 ## Info
 
