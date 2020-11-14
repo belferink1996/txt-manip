@@ -43,8 +43,10 @@ body {
 .app header h1 {
   position: absolute;
   bottom: 0;
+  left: 7px;
   color: #99c556;
   text-shadow: 0 0 3px #99c556;
+  font-size: 30px;
 }
 
 .app main .input,
