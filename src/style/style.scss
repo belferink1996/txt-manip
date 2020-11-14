@@ -25,7 +25,6 @@ body {
   align-items: center;
 
   header {
-    position: relative;
     margin-top: 1rem;
     margin-bottom: 4rem;
     img {
@@ -33,12 +32,11 @@ body {
       filter: drop-shadow(0 0 1px rgb(153, 197, 86));
     }
     h1 {
-      position: absolute;
-      bottom: 0;
-      left: 7px;
       color: rgb(153, 197, 86);
       text-shadow: 0 0 3px rgb(153, 197, 86);
-      font-size: 30px;
+      font-size: 28px;
+      text-align: center;
+      transform: translate(0, -100%);
     }
   }
 

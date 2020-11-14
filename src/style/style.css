@@ -29,7 +29,6 @@ body {
 }
 
 .app header {
-  position: relative;
   margin-top: 1rem;
   margin-bottom: 4rem;
 }
@@ -41,12 +40,12 @@ body {
 }
 
 .app header h1 {
-  position: absolute;
-  bottom: 0;
-  left: 7px;
   color: #99c556;
   text-shadow: 0 0 3px #99c556;
-  font-size: 30px;
+  font-size: 28px;
+  text-align: center;
+  -webkit-transform: translate(0, -100%);
+          transform: translate(0, -100%);
 }
 
 .app main .input,
