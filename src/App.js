@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logo from './media/logo.svg';
+import logo from './media/logo.png';
 import clipboard from './media/clipboard.svg';
 import './style/style.css';
 
@@ -17,26 +17,31 @@ function App() {
 
   return (
     <div className='app'>
-      <img src={logo} alt='logo' />
-      <input
-        className='input'
-        value={input}
-        onChange={(e) => {
-          setInput(e.target.value);
-        }}
-      />
-      <div className='readonly'>
-        <input className='output' value={output} readOnly />
-        <img
-          src={clipboard}
-          alt='copy to clipboard'
-          onClick={() => {
-            document.querySelector('.output').select();
-            document.execCommand('copy');
-            setOutput('Copied!');
+      <header>
+        <img src={logo} alt='logo' />
+        <h1>Text Manipulator</h1>
+      </header>
+      <main>
+        <input
+          className='input'
+          value={input}
+          onChange={(e) => {
+            setInput(e.target.value);
           }}
         />
-      </div>
+        <div className='readonly'>
+          <input className='output' value={output} readOnly />
+          <img
+            src={clipboard}
+            alt='copy to clipboard'
+            onClick={() => {
+              document.querySelector('.output').select();
+              document.execCommand('copy');
+              setOutput('Copied!');
+            }}
+          />
+        </div>
+      </main>
       <footer>
         Developed for{' '}
         <a href='http://orandt.co.il' target='blank'>
