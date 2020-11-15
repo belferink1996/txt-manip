@@ -1,23 +1,21 @@
 {
   "files": {
     "main.css": "/txt-manip/static/css/main.8c9885b6.chunk.css",
-    "main.js": "/txt-manip/static/js/main.503b38a8.chunk.js",
-    "main.js.map": "/txt-manip/static/js/main.503b38a8.chunk.js.map",
-    "runtime-main.js": "/txt-manip/static/js/runtime-main.5ce45af0.js",
-    "runtime-main.js.map": "/txt-manip/static/js/runtime-main.5ce45af0.js.map",
+    "main.js": "/txt-manip/static/js/main.c260e296.chunk.js",
+    "main.js.map": "/txt-manip/static/js/main.c260e296.chunk.js.map",
+    "runtime-main.js": "/txt-manip/static/js/runtime-main.5c954e58.js",
+    "runtime-main.js.map": "/txt-manip/static/js/runtime-main.5c954e58.js.map",
     "static/js/2.73cdf0b0.chunk.js": "/txt-manip/static/js/2.73cdf0b0.chunk.js",
     "static/js/2.73cdf0b0.chunk.js.map": "/txt-manip/static/js/2.73cdf0b0.chunk.js.map",
-    "static/js/3.d6ebf35f.chunk.js": "/txt-manip/static/js/3.d6ebf35f.chunk.js",
-    "static/js/3.d6ebf35f.chunk.js.map": "/txt-manip/static/js/3.d6ebf35f.chunk.js.map",
     "index.html": "/txt-manip/index.html",
     "static/css/main.8c9885b6.chunk.css.map": "/txt-manip/static/css/main.8c9885b6.chunk.css.map",
     "static/js/2.73cdf0b0.chunk.js.LICENSE.txt": "/txt-manip/static/js/2.73cdf0b0.chunk.js.LICENSE.txt",
     "static/media/clipboard.ead53a3c.svg": "/txt-manip/static/media/clipboard.ead53a3c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ce45af0.js",
+    "static/js/runtime-main.5c954e58.js",
     "static/js/2.73cdf0b0.chunk.js",
     "static/css/main.8c9885b6.chunk.css",
-    "static/js/main.503b38a8.chunk.js"
+    "static/js/main.c260e296.chunk.js"
   ]
 }
