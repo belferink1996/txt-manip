@@ -1,0 +1,18 @@
+.component {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.component img {
+  width: 250px;
+  -webkit-filter: drop-shadow(0 0 1px rgb(153, 197, 86));
+          filter: drop-shadow(0 0 1px rgb(153, 197, 86));
+}
+
+.component h1 {
+  color: rgb(153, 197, 86);
+  text-shadow: 0 0 3px rgb(153, 197, 86);
+  font-size: 28px;
+  text-align: center;
+  transform: translate(0, -100%);
+}

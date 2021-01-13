@@ -1,0 +1,41 @@
+.input,
+.output {
+  width: 300px;
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  font-size: 28px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border: none;
+  outline: none;
+  cursor: text;
+}
+
+.input {
+  border-radius: 11px;
+  box-shadow: 0px 2px 7px -2px rgb(153, 197, 86);
+}
+
+.output {
+  background-color: transparent;
+  color: #959595;
+  border-radius: 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.readonly {
+  position: relative;
+}
+.readonly svg {
+  position: absolute;
+  right: 0;
+  bottom: 22px;
+
+  width: 45px;
+  height: 45px;
+  padding: 4px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

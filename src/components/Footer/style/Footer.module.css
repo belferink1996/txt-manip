@@ -1,0 +1,9 @@
+.component {
+  margin: auto 0 0 0;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.component a {
+  color: #40e0d0;
+}
