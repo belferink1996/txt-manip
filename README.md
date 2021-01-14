@@ -1,6 +1,6 @@
 # TXT Manip - (Text Manipulator)
 
-###Open app: [https://belferink1996.github.io/txt-manip](https://belferink1996.github.io/txt-manip)
+### Open app: [https://belferink1996.github.io/txt-manip](https://belferink1996.github.io/txt-manip)
 
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app).
