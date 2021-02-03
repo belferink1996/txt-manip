@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import styles from './style/Main.module.css';
 import CopyIcon from './icon/CopyIcon.jsx';
 
-function Main() {
+export default function Main() {
   const [input, setInput] = useState('');
   const [output, setOutput] = useState('');
   const [isCopied, setIsCopied] = useState(false);
@@ -51,5 +51,3 @@ function Main() {
     </main>
   );
 }
-
-export default Main;

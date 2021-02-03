@@ -1,6 +1,6 @@
 import styles from './style/Footer.module.css';
 
-function Footer() {
+export default function Footer() {
   return (
     <footer className={styles.component}>
       Developed for{' '}
@@ -11,5 +11,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

@@ -1,7 +1,7 @@
 import styles from './style/Header.module.css';
 import logo from './img/logo.png';
 
-function Header() {
+export default function Header() {
   return (
     <header className={styles.component}>
       <img src={logo} alt='logo' />
@@ -9,5 +9,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;
